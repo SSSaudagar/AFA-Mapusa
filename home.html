@@ -6,13 +6,174 @@
 
 <head>
 <title>AFA MAPUSA </title>
+    
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar{
+    z-index: 1000;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-color: #222222;
+    border-color: #080808;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px;
+   }
+body{
+    margin:0;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+.navbar-header {
+    float: left;
+}
+.navbar-brand {
+    text-decoration: none;
+    color: #999999;
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-brand:hover,.navbar-brand:focus {
+	color: #ffffff;
+	background-color: transparent;
+}
+.jumbotron{
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: #eee;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-image: url(./assets/img/Picture1.jpg);
+}
+#banner{
+	text-align: center;
+    color: white;
+}
+#banner>h3{
+	font-size: 24px;
+	margin-top: 20px;
+    margin-bottom: 10px;	
+}
+#banner>h3,#banner>h5{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+#banner>h5{
+	font-size: 14px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+#section1{
+    height: 500px;
+}
+.half-screen{
+    position: relative;
+    float: left;
+    width:50%
+}
+#flash-caption{
+    font-size: 300%;
+    font-weight: 700;
+}
+.panel{
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    height: 50%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+}
+.panel-heading{
+        padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+#programs{
+    border-color: #fbeed5;
+}
+#prog-head{
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+}
+#meetings{
+    border-color: #d6e9c6;
+}
+#meet-head{
+    color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+</style>
 </head>
 
 <body>
-
-<p>
-test
-</p>
-
+<nav class="navbar">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="./home.html">AFA Mapusa</a>
+    </div>
+</nav>
+<div class="jumbotron">
+	<div class="container" id="banner">
+			<h3> Association of Friends of Astronomy (Mapusa)</h3>
+			<h5>Puroshottam Walawalkar Higher Secondary School</h5>
+			<h5> Khorlim Mapusa Goa 403507</h5>
+	</div>
+</div>
+<div class="container">
+    <div id=section1>
+        <div class="half-screen">
+            <embed src="assets/flash/scaleofuniverse_huang.swf" width="100%" height="350px">
+                <figcaption id=flash-caption>Experience the Vastness of the Universe</figcaption>
+            </embed>
+        </div>
+        <div class="half-screen">
+            <div class="panel" id="programs">
+                <div id=prog-head class="panel-heading">
+                    <h3 class="panel-title">Programs</h3>
+                </div>
+            </div>
+            <div class="panel" id="meetings">
+                <div id=meet-head class="panel-heading">
+                    <h3 class="panel-title">Meetings</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
