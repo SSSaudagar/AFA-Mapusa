@@ -1,0 +1,14 @@
+<!ELEMENT meetups(programs,meetings)>
+<!ELEMENT programs(prog+)>
+<!ELEMENT meetings(lecture+)>
+<!ELEMENT prog(id,date,place,area,name?)>
+<!ATTLIST prog type CDATA #IMPLIED>
+<!ELEMENT id(#PCDATA)>
+<!ELEMENT date(#PCDATA)>
+<!ELEMENT place(#PCDATA)>
+<!ELEMENT area(#PCDATA)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT lecture(id,date,presentation, programmer, guide+)>
+<!ELEMENT presentation(#PCDATA)>
+<!ELEMENT programmer(#PCDATA)>
+<!ELEMENT guide(#PCDATA)>

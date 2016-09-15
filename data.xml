@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE meetups SYSTEM "data.dtd">
+<meetups>
+    <programs>
+        <prog type="awareness">
+            <id>1</id>
+            <date>2016-06-25</date>
+            <place>Saraswat Vidyalaya High School</place>
+            <area>Mapusa</area>
+        </prog>
+        <prog type="visit">
+            <id>2</id>
+            <date>2016-06-26</date>
+            <place>Vidyaprasak High School</place>
+            <area>Morjim</area>
+            <name>Basic Astronomy</name>
+        </prog>
+        <prog type="visit">
+            <id>3</id>
+            <date>2016-07-03</date>
+            <place>Ravindra Bhavan</place>
+            <area>Sakhali</area>
+            <name>How big is universe</name>
+        </prog>
+    </programs>
+    <meetings>
+        <lecture>
+            <id>1</id>
+            <date>2016-07-01</date>
+            <presentation>Science and Scientific Method</presentation>
+            <programmmer>Rudra Sawant</programmmer>
+            <guide>Shashank Shetye Saudagar</guide>
+            <guide>Rushabh Shetye Saudagar</guide>
+        </lecture>
+        <lecture>
+            <id>2</id>
+            <date>2016-07-08</date>
+            <presentation>Debate</presentation><presentation>How big is the Universe</presentation>
+            <programmmer>Shashank Shetye Saudagar</programmmer>
+            <guide>Rushabh Shetye Saudagar</guide>
+            <guide>Rudra Sawant</guide>
+        </lecture>
+        <lecture>
+            <id>3</id>
+            <date>2016-07-23</date>
+            <presentation>Movie: 1 second after the big bang</presentation>
+            <programmmer>Rushabh Shetye Saudagar</programmmer>
+            <guide>Satish Nayak</guide>
+            <guide>Videsh Khandeparkar</guide>
+        </lecture>
+    </meetings>
+</meetups>
